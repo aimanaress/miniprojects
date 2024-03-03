@@ -1,7 +1,12 @@
 import React from "react";
+import NavBar from "./NavBar/NavBar";
 
-function Main() {
-  return <div>Main</div>;
-}
+const Main = () => {
+  return (
+    <React.Fragment>
+      <NavBar />
+    </React.Fragment>
+  );
+};
 
 export default Main;
