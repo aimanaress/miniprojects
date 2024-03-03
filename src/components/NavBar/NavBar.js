@@ -15,7 +15,7 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex flex-row mx-2 mt-2 mb-1 py-2 rounded-xl items-center justify-center bg-gray-500">
+    <div className="flex flex-row mx-2 mt-2 py-2 rounded-xl items-center justify-center bg-gray-500">
       {navigations.map((nav) => {
         return <NavBarItem key={nav.id} title={nav.title} />;
       })}
